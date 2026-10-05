@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>علي فرفراوي | سجلّ إنجازاتي</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600&family=Reem+Kufi:wght@500;700&display=swap">
+<style>
+:root{color-scheme:dark;--bg:#000;--grid:#2a2400;--ink:#f4f1e6;--mute:#b5af95;--pen:#ffd400;--hl:#ffd400}
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background-color:var(--bg);background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:26px 26px;color:var(--ink);font:400 1.05rem/1.9 "IBM Plex Sans Arabic","Segoe UI",Tahoma,system-ui,sans-serif}
+h1,h2,h3{font-family:"Reem Kufi","IBM Plex Sans Arabic",Tahoma,sans-serif;line-height:1.35;margin:0}
+.w{max-width:720px;margin:0 auto;padding:0 22px}
+.hero{padding:64px 0 28px}
+h1{font-size:clamp(2.8rem,13vw,4.8rem);font-weight:700}
+.lead{max-width:32em;margin:14px 0 22px;color:var(--mute);font-size:1.15rem}
+.lead b{background:var(--hl);color:#000;font-weight:600;padding:0 8px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+a{color:var(--pen);font-weight:600;text-underline-offset:5px;text-decoration-thickness:2px}
+a:focus-visible{outline:3px solid var(--pen);outline-offset:3px;border-radius:4px}
+.links a{margin-inline-end:20px}
+section{padding:34px 0}
+h2{font-size:1.9rem}
+.sub{color:var(--mute);margin:2px 0 28px}
+.log{list-style:none;margin:0;padding:0;border-inline-start:2px solid var(--pen)}
+.log li{position:relative;padding:0 0 32px;padding-inline-start:28px}
+.log li:last-child{padding-bottom:0}
+.log li::before{content:"";position:absolute;inset-inline-start:-9px;top:.55em;width:16px;height:16px;border-radius:50%;background:var(--pen);border:3px solid var(--bg)}
+.log li.next::before{background:var(--bg);border:2px dashed var(--pen)}
+.m{display:flex;flex-wrap:wrap;gap:4px 14px;color:var(--mute);font-size:.92rem}
+.m code{font-family:ui-monospace,Menlo,Consolas,monospace;direction:ltr;color:var(--pen)}
+.log h3{font-size:1.35rem}
+.log p{margin:2px 0 0}
+.tools{display:flex;flex-wrap:wrap;gap:10px 12px;list-style:none;margin:0;padding:0}
+.tools li{padding:0 16px;border-radius:6px;font-weight:600;background:var(--hl);color:#000}
+footer{padding:32px 0 28px;color:var(--mute);font-size:.9rem}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="hero w">
+  <h1>سجلّ إنجازاتي</h1>
+  <p class="lead">أنا علي فرفراوي، <b>طالب معلوماتية في السنة الأولى</b>. أنشر هنا كل ما أنجزته خلال دراستي، من أول سطر برمجي إلى آخر مشروع.</p>
+  <nav class="links"><a href="#achievements">الإنجازات</a><a href="#tools">المهارات</a><a href="#contact">تواصل معي</a></nav>
+</header>
+
+<main class="w">
+  <section id="achievements">
+    <h2>الإنجازات</h2>
+    <p class="sub">الأحدث في الأعلى.</p>
+    <ol class="log">
+      <li class="next">
+        <div class="m"><span>قيد العمل</span></div>
+        <h3>المشاركة في أول مسابقة برمجية</h3>
+        <p>أتدرّب على حل المسائل كل أسبوع لأكون جاهزاً.</p>
+      </li>
+      <li>
+        <div class="m"><code>a3f9c21</code><span>[التاريخ]</span></div>
+        <h3>أول مشروع على GitHub</h3>
+        <p>رفعت مشروعي الأول [اسم المشروع] وكتبت له ملف README يشرح فكرته وطريقة تشغيله.</p>
+      </li>
+      <li>
+        <div class="m"><code>7be40d8</code><span>[التاريخ]</span></div>
+        <h3>أول برنامج يعمل</h3>
+        <p>كتبت برنامجي الأول بلغة C++ وتعلّمت المتغيرات والشروط والحلقات.</p>
+      </li>
+      <li>
+        <div class="m"><code>1c05e9a</code><span>أكتوبر 2026</span></div>
+        <h3>بداية السنة الأولى</h3>
+        <p>بدأت دراسة المعلوماتية، وهدفي أن أبني أساساً قوياً في البرمجة.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section id="tools">
+    <h2>المهارات</h2>
+    <p class="sub">اللغات التي أستخدمها في دراستي ومشاريعي.</p>
+    <ul class="tools"><li>C++</li><li>HTML</li></ul>
+  </section>
+
+  <section id="contact">
+    <h2>تواصل معي</h2>
+    <p class="sub">يسعدني أن أسمع منك.</p>
+    <p class="links"><a href="mailto:alyfarfarawy@gmail.com">البريد الإلكتروني</a><a href="https://github.com/alyfarfarawy">GitHub</a></p>
+  </section>
+</main>
+
+<footer class="w">© 2026 علي فرفراوي</footer>
+</body>
+</html>
